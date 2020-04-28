@@ -4,7 +4,10 @@ subtitle: "Vive la Commune et le logiciel libre."
 name: "Adrien Gesta-Fline"
 description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
+repository: "agfline/agfline.github.io"
 #baseurl: "docs"
+
+include: ["_pages"]
 
 defaults:
   # _posts
