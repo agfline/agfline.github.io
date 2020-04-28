@@ -22,7 +22,7 @@ defaults:
 author:
   name             : "Adrien Gesta-Fline"
   avatar           : "assets/img/profile.jpg"
-  bio              : "Vive la Commune et le logiciel libre."
+  bio              : "<b>\"ingénieur\" du son le jour, développeur révolutionnaire la nuit.</b>"
   location         : "France"
   github           : "agfline"
   wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
