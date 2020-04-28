@@ -5,16 +5,6 @@ name: "Adrien Gesta-Fline"
 description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
 #baseurl: "docs"
-read_time: true
-
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
-    url: /about/
-
 
 plugins:
   - jekyll-include-cache
