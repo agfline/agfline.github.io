@@ -1,7 +1,12 @@
 ---
-layout: post
-title: Introduction à la rétro ingénierie
-categories: Reverse-Engineering
+title: "Introduction à la rétro ingénierie"
+categories: "Reverse-Engineering"
+date: "2012-08-14"
+permalink: "/posts/2012/08/blog-post-1/"
+tags:
+  - "cool posts"
+  - "category1"
+  - "category2"
 ---
 
 coucou
