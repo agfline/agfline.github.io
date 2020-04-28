@@ -32,6 +32,10 @@ defaults:
       comments: true
       share: true
       related: true
+      category: true
+      categories: true
+      tags: true
+      tag: true
       
 
 author:
