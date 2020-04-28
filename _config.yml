@@ -6,8 +6,6 @@ description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
 #baseurl: "docs"
 
-layout: single
-
 author:
   name             : "Adrien Gesta-Fline"
   avatar           : "profile.png"
