@@ -3,7 +3,7 @@ layout: archive
 ---
 
 {{ content }}
-<b>HELLLLLLLLO</b>
+
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
   {% if category[1].size > categories_max %}
@@ -16,6 +16,7 @@ layout: archive
     {% for category in site.categories %}
       {% if category[1].size == i %}
         <li>
+          <b>HELLLLLLLLO</b>
           <a href="#{{ category[0] | slugify }}">
             <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
           </a>
