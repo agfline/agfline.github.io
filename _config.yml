@@ -34,6 +34,10 @@ defaults:
       related: true
       
 
+category_archive:
+  type: liquid
+  path: /categories/
+  
 author:
   name             : "Adrien Gesta-Fline"
   avatar           : "assets/img/profile.jpg"
