@@ -1,6 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 title: "agfline"
-subtitle: 
+subtitle: "Vive la Commune et le logiciel libre."
 name: "Adrien Gesta-Fline"
 description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
@@ -11,7 +11,7 @@ layout: single
 author:
   name             : "Adrien Gesta-Fline"
   avatar           : "profile.png"
-  bio              : "Ingenieur du son le jour, developpeur révolutionnaire la nuit."
+  bio              : "Vive la Commune et le logiciel libre."
   location         : "France"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
