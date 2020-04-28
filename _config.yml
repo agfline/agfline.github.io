@@ -54,7 +54,7 @@ author:
 #  weibo            :
 #  xing             :
 #  youtube          :
-  wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
+  wikipedia        : "Agfline"
 
 plugins:
   - jekyll-include-cache
