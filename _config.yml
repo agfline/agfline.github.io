@@ -6,6 +6,8 @@ description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
 #baseurl: "docs"
 
+layout: single
+
 defaults:
   # _pages
   - scope:
