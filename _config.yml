@@ -4,7 +4,7 @@ subtitle:
 name: "Adrien Gesta-Fline"
 description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
-baseurl: "docs"
+#baseurl: "docs"
 read_time: true
 
 main:
