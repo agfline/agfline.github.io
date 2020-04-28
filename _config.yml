@@ -21,7 +21,7 @@ defaults:
 
 author:
   name             : "Adrien Gesta-Fline"
-  avatar           : "profile.png"
+  #avatar           : "profile.png"
   bio              : "Vive la Commune et le logiciel libre."
   location         : "France"
 #  employer         :
