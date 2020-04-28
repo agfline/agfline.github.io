@@ -6,5 +6,13 @@ description: "Ici on partage un café, on parle technique et parfois politique."
 url: "https://agfline.github.io/"
 #baseurl: "docs"
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
 plugins:
   - jekyll-include-cache
