@@ -12,8 +12,8 @@ layout: archive
 {% endfor %}
 
 {% assign urlParts = page.url | split: '#' %}
-{% assign category = urlParts[1] | replace: '-', ' ' | capitalize %}
-<h1>{{ category }} !</h1>
+<!--{% assign category = urlParts[1] | replace: '-', ' ' | capitalize %}-->
+<h1>{{ urlParts[0] }} !</h1>
 
 <!-- <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
