@@ -1,4 +1,6 @@
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
+minimal_mistakes_skin: "default"
+locale: "fr-FR"
 title: "agfline"
 subtitle: "Vive la Commune et le logiciel libre."
 name: "Adrien Gesta-Fline"
@@ -36,7 +38,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /cats/
 
 tag_archive:
   type: liquid
