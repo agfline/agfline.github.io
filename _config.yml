@@ -10,7 +10,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      #type: posts
     values:
       layout: single
       author_profile: true
@@ -21,7 +21,7 @@ defaults:
 
 author:
   name             : "Adrien Gesta-Fline"
-  #avatar           : "profile.png"
+  avatar           : "assets/img/profile.png"
   bio              : "Vive la Commune et le logiciel libre."
   location         : "France"
 #  employer         :
@@ -36,7 +36,7 @@ author:
 #  flickr           :
 #  facebook         :
 #  foursquare       :
-#  github           : "academicpages"
+  github           : "agfline"
 #  google_plus      :
 #  keybase          :
 #  instagram        :
@@ -54,7 +54,7 @@ author:
 #  weibo            :
 #  xing             :
 #  youtube          :
-#  wikipedia        :
+  wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
 
 plugins:
   - jekyll-include-cache
