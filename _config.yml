@@ -7,6 +7,10 @@ url: "https://agfline.github.io/"
 repository: "agfline/agfline.github.io"
 #baseurl: "docs"
 
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
 include:
   - "_pages"
   - "_posts"
