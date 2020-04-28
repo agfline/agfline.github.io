@@ -39,9 +39,19 @@ author:
   avatar           : "assets/img/profile.jpg"
   bio              : "<i>\"ingénieur\" du son le jour, développeur révolutionnaire la nuit.</i>"
   location         : "France"
-  github           : "agfline"
-  wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
-  email            : "dev.agfline@posteo.net"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:dev.agfline@posteo.net
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/agfline"
+    - label: "Wikipedia"
+      icon: "fab fa-fw fa-wikipedia"
+      url: "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
+#  github           : "agfline"
+#  wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
+#  email            : "dev.agfline@posteo.net"
 
 #  employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
