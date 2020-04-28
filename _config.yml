@@ -38,7 +38,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /cats/
+  path: /categories/
 
 tag_archive:
   type: liquid
