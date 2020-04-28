@@ -2,7 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 title: "agfline"
 subtitle: "Vive la Commune et le logiciel libre."
 name: "Adrien Gesta-Fline"
-description: "Ici on partage un café, on parle technique et parfois politique."
+description: ""
 url: "https://agfline.github.io/"
 repository: "agfline/agfline.github.io"
 #baseurl: "docs"
@@ -61,3 +61,8 @@ author:
 
 plugins:
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  #- jekyll-include-cache
