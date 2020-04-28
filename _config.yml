@@ -24,6 +24,10 @@ author:
   avatar           : "assets/img/profile.jpg"
   bio              : "Vive la Commune et le logiciel libre."
   location         : "France"
+  github           : "agfline"
+  wikipedia        : "https://fr.wikipedia.org/wiki/Utilisateur:Agfline"
+  email            : "dev.agfline@posteo.net"
+
 #  employer         :
 #  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
 #  googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -36,7 +40,6 @@ author:
 #  flickr           :
 #  facebook         :
 #  foursquare       :
-  github           : "agfline"
 #  google_plus      :
 #  keybase          :
 #  instagram        :
@@ -54,7 +57,6 @@ author:
 #  weibo            :
 #  xing             :
 #  youtube          :
-  wikipedia        : "Agfline"
 
 plugins:
   - jekyll-include-cache
