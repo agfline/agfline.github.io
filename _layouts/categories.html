@@ -11,10 +11,10 @@ layout: archive
   {% endif %}
 {% endfor %}
 
-{% assign urlParts = page.url | split: '\#' %}
+{% assign urlParts = page.url | split: '#' %}
 <!--{% assign category = urlParts[1] | replace: '-', ' ' | capitalize %}-->
 {% for word in urlParts %}
-<h1>{{ word }} !</h1>
+<h1>{{ word }} ?</h1>
 {% endfor %}
 <!-- <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
