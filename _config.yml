@@ -12,10 +12,15 @@ include:
   - "_posts"
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
-      #type: posts
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -23,6 +28,7 @@ defaults:
       comments: true
       share: true
       related: true
+      
 
 author:
   name             : "Adrien Gesta-Fline"
