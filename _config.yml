@@ -7,7 +7,9 @@ url: "https://agfline.github.io/"
 repository: "agfline/agfline.github.io"
 #baseurl: "docs"
 
-include: ["_pages"]
+include:
+  - "_pages"
+  - "_posts"
 
 defaults:
   # _posts
