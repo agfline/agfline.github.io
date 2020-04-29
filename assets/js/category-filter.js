@@ -15,12 +15,11 @@ function filterCategory( catRequest ) {
 
 document.addEventListener('DOMContentLoaded', function() {
   filterCategory(window.location.hash.slice(1));
+  window.onhashchange = function() {
+    console.log("hashchange");
+    filterCategory(window.location.hash.slice(1));
+  }
 }, false);
-
-window.onhashchange = function() {
-  console.log("hashchange");
-  filterCategory(window.location.hash.slice(1));
-}
 
 // window.addEventListener('hashchange', function() {
 //   console.log("hashchange");
