@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function(e) {
     return e;
   }, true);
 
-  window.addEventListener('hashchange', function(e) {
-    console.log("hashchange");
+  window.addEventListener('locationchange', function(e) {
+    console.log("locationchange");
     //filterCategory(window.location.hash.slice(1));
     return e;
   }, true);
