@@ -18,17 +18,18 @@ function filterCategory( catRequest )
 
 document.addEventListener('DOMContentLoaded', function(e) {
   console.log("DOMContentLoaded");
-  filterCategory(window.location.hash.slice(1));
+  //filterCategory(window.location.hash.slice(1));
+  
+  window.addEventListener('popstate', function(e){
+    console.log("onpopstate2");
+    return e;
+  }, true);
+
+  window.addEventListener('hashchange', function(e) {
+    console.log("hashchange");
+    //filterCategory(window.location.hash.slice(1));
+    return e;
+  }, true);
+  
   return e;
 }, false);
-
-window.addEventListener('popstate', function(e){
-  console.log("onpopstate2");
-  return e;
-}, true);
-
-window.addEventListener('hashchange', function(e) {
-  console.log("hashchange");
-  //filterCategory(window.location.hash.slice(1));
-  return e;
-}, true);
