@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var catRequest = window.location.hash.slice(1);
-
+function filterCategory( catRequest )
+{
     if ( !catRequest )
       return;
 
@@ -11,5 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var i = 0; i < sections.length; i++) {
       if (sections[i].id != catRequest)
         sections[i].style.display = "none";
-    }
+    }  
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    filterCategory(window.location.hash.slice(1));
+}, false);
+
+window.addEventListener('hashchange', function() {
+    filterCategory(window.location.hash.slice(1));
 }, false);
