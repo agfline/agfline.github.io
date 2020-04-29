@@ -1,5 +1,6 @@
 ---
 title: Introduction à la rétro ingénierie
+related_image: 2020-04-28-reverse-engineering-intro.jpg
 categories: Reverse-Engineering
 date: 2020-04-28
 tags:
