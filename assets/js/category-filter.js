@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCategory(window.location.hash.slice(1));
 }, false);
 
-window.addEventListener('hashchange', function() {
+window.onhashchange = function() {
   console.log("hashchange");
   filterCategory(window.location.hash.slice(1));
-}, true);
+}
+
+// window.addEventListener('hashchange', function() {
+//   console.log("hashchange");
+//   filterCategory(window.location.hash.slice(1));
+// }, false);
