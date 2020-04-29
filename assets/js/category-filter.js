@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCategory(window.location.hash.slice(1));
 }, false);
 
-window.addEventListener('popstate', function() {
+document.addEventListener('popstate', function() {
   console.log("hashchange");
   filterCategory(window.location.hash.slice(1));
 }, false);
