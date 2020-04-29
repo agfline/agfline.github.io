@@ -21,10 +21,11 @@ function filterCategory( catRequest )
 }
 
 
-document.addEventListener('DOMContentLoaded', function(e) {
+/* Quickest to call script in the end of layout */
+//document.addEventListener('DOMContentLoaded', function(e) {
   filterCategory(window.location.hash.slice(1));  
-  return e;
-}, false);
+//  return e;
+//}, false);
 
 
 /*
