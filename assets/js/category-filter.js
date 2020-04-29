@@ -17,13 +17,14 @@ function filterCategory( catRequest )
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  console.log("DOMContentLoaded");
   filterCategory(window.location.hash.slice(1));
-  console.log(window);
-  window.onpopstate = function() {
-    console.log("popstate");
-    filterCategory(window.location.hash.slice(1));
-  }
 }, false);
+
+window.onpopstate = function() {
+  console.log("onpopstate");
+  filterCategory(window.location.hash.slice(1));
+}
 
 document.addEventListener('hashchange', function() {
   console.log("hashchange");
