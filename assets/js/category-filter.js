@@ -7,10 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Each categorized group of posts is in a section.
     // No other section in document.
     var sections = document.querySelectorAll("section");
+    
     for (var i = 0; i < sections.length; i++) {
       if (sections[i].id != catRequest)
         sections[i].style.display = "none";
     }
-
-    }, false);
 }, false);
