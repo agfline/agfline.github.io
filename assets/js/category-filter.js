@@ -15,13 +15,9 @@ function filterCategory( catRequest ) {
 
 document.addEventListener('DOMContentLoaded', function() {
   filterCategory(window.location.hash.slice(1));
-  window.onhashchange = function() {
-    console.log("hashchange");
-    filterCategory(window.location.hash.slice(1));
-  }
 }, false);
 
-// window.addEventListener('hashchange', function() {
-//   console.log("hashchange");
-//   filterCategory(window.location.hash.slice(1));
-// }, false);
+window.addEventListener('popstate', function() {
+  console.log("hashchange");
+  filterCategory(window.location.hash.slice(1));
+}, false);
