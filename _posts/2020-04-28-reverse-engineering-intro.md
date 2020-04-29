@@ -7,4 +7,4 @@ tags:
   - "Rétro-ingénierie"
 ---
 
-coucou
+La rétro ingénierie n'est PAS une forme d'ingénierie old-school.
