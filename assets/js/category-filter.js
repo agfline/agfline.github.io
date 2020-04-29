@@ -17,7 +17,6 @@ function filterCategory( catRequest )
   {
     if ( is_first_page_load ) {
       sections[i].id += "x"; // avoid anchor scroll-down on categories
-      is_first_page_load = false;
     }
 
     if (sections[i].id == catRequest+"x")
@@ -26,6 +25,10 @@ function filterCategory( catRequest )
       sections[i].style.display = "none";
     
     sections[i].querySelector("h1.archive__subtitle").classList.add("as-page-title-style");
+  }
+  
+  if ( is_first_page_load ) {
+    is_first_page_load = false;
   }
 }
 
