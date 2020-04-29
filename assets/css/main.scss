@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+section,
+.wrapper {
+  max-width: 850px !important;
+}
+
+.taxonomy__section {
+  margin-top: 800px !important;
+  color: red !important;
+}
+
+.as-page-title-style {
+  margin-top: 0px !important;
+  line-height: 1em !important;
+  
+  font-size: 1.563em !important;
+  color: #3d4144 !important;
+  
+  padding-bottom: 1.5em !important;
+  /*color: #646769;*/
+  border-bottom: 1px solid #f2f3f3 !important;
+}
