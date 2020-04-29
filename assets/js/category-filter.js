@@ -20,4 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('hashchange', function() {
   console.log("hashchange");
   filterCategory(window.location.hash.slice(1));
-}, false);
+}, true);
