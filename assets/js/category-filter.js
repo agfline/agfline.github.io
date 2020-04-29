@@ -1,3 +1,5 @@
+var is_first_page_load = true;
+
 function filterCategory( catRequest )
 {
   if ( !catRequest )
@@ -13,12 +15,16 @@ function filterCategory( catRequest )
   
   for (var i = 0; i < sections.length; i++)
   {
-    if (sections[i].id == catRequest)
+    if ( is_first_page_load ) {
+      sections[i].id += "x"; // avoid anchor scroll-down on categories
+      is_first_page_load = false;
+    }
+
+    if (sections[i].id == catRequest+"x")
       sections[i].style.display = "block";
     else
       sections[i].style.display = "none";
     
-    sections[i].id = ""; // avoid anchor scroll-down on categories
     sections[i].querySelector("h1.archive__subtitle").classList.add("as-page-title-style");
   }
 }
