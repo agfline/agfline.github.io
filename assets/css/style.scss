@@ -13,13 +13,13 @@ section,
 }
 
 .archive__subtitle-as-page-title-style {
-  margin-top: 0;
-  line-height: 1;
+  margin-top: 0 !important;
+  line-height: 1 !important;
   
-  font-size: 1.563em;
-  color: #3d4144;
+  font-size: 1.563em !important;
+  color: #3d4144 !important;
   
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5em !important;
   /*color: #646769;*/
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 1px solid #f2f3f3 !important;
 }
