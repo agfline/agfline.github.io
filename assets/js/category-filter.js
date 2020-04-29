@@ -19,6 +19,9 @@ function filterCategory( catRequest )
 document.addEventListener('DOMContentLoaded', function() {
   console.log("DOMContentLoaded");
   filterCategory(window.location.hash.slice(1));
+  $( window ).on( 'hashchange', function( e ) {
+    console.log( 'hash changed' );
+  });
 }, false);
 
 window.onpopstate = function() {
