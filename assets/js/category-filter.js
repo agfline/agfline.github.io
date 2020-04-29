@@ -1,4 +1,3 @@
-var is_first_page_load = true;
 
 function filterCategory( catRequest )
 {
@@ -15,20 +14,13 @@ function filterCategory( catRequest )
   
   for (var i = 0; i < sections.length; i++)
   {
-    if ( is_first_page_load ) {
-      sections[i].id += "x"; // avoid anchor scroll-down on categories
-    }
 
-    if (sections[i].id == catRequest+"x")
+    if (sections[i].id == catRequest+"x") /* layout categories.html adds an 'x' to id, to avoid scroll down on anchor */
       sections[i].style.display = "block";
     else
       sections[i].style.display = "none";
     
     sections[i].querySelector("h1.archive__subtitle").classList.add("as-page-title-style");
-  }
-  
-  if ( is_first_page_load ) {
-    is_first_page_load = false;
   }
 }
 
