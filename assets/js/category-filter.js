@@ -16,6 +16,26 @@ function filterCategory( catRequest )
   }
 }
 
+
+history.pushState = ( f => function pushState(){
+    var ret = f.apply(this, arguments);
+    window.dispatchEvent(new Event('pushstate'));
+    window.dispatchEvent(new Event('locationchange'));
+    return ret;
+})(history.pushState);
+
+history.replaceState = ( f => function replaceState(){
+    var ret = f.apply(this, arguments);
+    window.dispatchEvent(new Event('replacestate'));
+    window.dispatchEvent(new Event('locationchange'));
+    return ret;
+})(history.replaceState);
+
+window.addEventListener('popstate',()=>{
+    window.dispatchEvent(new Event('locationchange'))
+});
+
+
 document.addEventListener('DOMContentLoaded', function(e) {
   console.log("DOMContentLoaded");
   //filterCategory(window.location.hash.slice(1));
@@ -29,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
     console.log("locationchange");
     //filterCategory(window.location.hash.slice(1));
     return e;
-  }, true);
+  }, false);
   
   return e;
 }, false);
