@@ -16,21 +16,19 @@ function filterCategory( catRequest )
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function(e) {
   console.log("DOMContentLoaded");
   filterCategory(window.location.hash.slice(1));
+  return e;
 }, false);
 
-window.onpopstate = function() {
-  console.log("onpopstate");
-  //filterCategory(window.location.hash.slice(1));
-}
-
 window.addEventListener('popstate', function(e){
-    console.log("onpopstate2");
+  console.log("onpopstate2");
+  return e;
 }, true);
 
-document.addEventListener('hashchange', function() {
+window.addEventListener('hashchange', function(e) {
   console.log("hashchange");
   //filterCategory(window.location.hash.slice(1));
+  return e;
 }, true);
