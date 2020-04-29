@@ -18,6 +18,7 @@ function filterCategory( catRequest )
     else
       sections[i].style.display = "none";
     
+    sections[i].id = ""; // avoid anchor scroll-down on categories
     sections[i].querySelector("h1.archive__subtitle").classList.add("as-page-title-style");
   }
 }
