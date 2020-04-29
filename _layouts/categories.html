@@ -32,7 +32,7 @@ layout: archive
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
     {% if category[1].size == i %}
-      <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+      <section id="{{ category[0] | slugify | downcase }}x" class="taxonomy__section"> <!-- add an 'x' to id to avoid scroll down to anchor -->
         <!--<h2 class="archive__subtitle">{{ category[0] }}</h2>-->
         <h1 class="archive__subtitle">{{ category[0] }}</h1>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
