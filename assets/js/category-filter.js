@@ -4,8 +4,8 @@ function filterCategory( catRequest )
     return;
 
   
-  document.querySelector("page-title").style.display = "none";
-  document.querySelector("taxonomy__index").style.display = "none";
+  document.querySelector("#page-title").style.display = "none";
+  document.querySelector(".taxonomy__index").style.display = "none";
   
   // Each categorized group of posts is in a section.
   // No other section in document.
