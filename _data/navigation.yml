@@ -1,7 +1,9 @@
 main:
   - title: "Reverse-Engineering"
-    url: /reverse-engineering/
+    url: /categories/#reverse-engineering
+  - title: "Kernel drivers"
+    url: /categories/#kernel-driver
   - title: "Projects"
-    url: /projects/
+    url: /categories/#projects
   - title: "About"
     url: /about/
