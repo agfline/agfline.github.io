@@ -2,8 +2,6 @@
 layout: archive
 ---
 
-<script src="{{ base.url | prepend: site.url }}/assets/js/category-filter.js"></script>
-
 {{ content }}
 
 {% assign categories_max = 0 %}
@@ -35,7 +33,8 @@ layout: archive
   {% for category in site.categories %}
     {% if category[1].size == i %}
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ category[0] }}</h2>
+        <!--<h2 class="archive__subtitle">{{ category[0] }}</h2>-->
+        <h1 class="">{{ category[0] }}</h1>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in category.last %}
             {% include archive-single.html type=page.entries_layout %}
@@ -46,3 +45,5 @@ layout: archive
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+<script src="{{ base.url | prepend: site.url }}/assets/js/category-filter.js"></script>
