@@ -17,6 +17,17 @@ function filterCategory( catRequest )
 }
 
 
+document.addEventListener('DOMContentLoaded', function(e) {
+  filterCategory(window.location.hash.slice(1));  
+  return e;
+}, false);
+
+
+/*
+ * Only way to get notified on url change... thanks to jQuery plugins... 
+ * https://stackoverflow.com/a/52809105
+ */
+
 history.pushState = ( f => function pushState(){
     var ret = f.apply(this, arguments);
     window.dispatchEvent(new Event('pushstate'));
@@ -35,21 +46,8 @@ window.addEventListener('popstate',()=>{
     window.dispatchEvent(new Event('locationchange'))
 });
 
-
-document.addEventListener('DOMContentLoaded', function(e) {
-  console.log("DOMContentLoaded");
-  //filterCategory(window.location.hash.slice(1));
-  
-  window.addEventListener('popstate', function(e){
-    console.log("onpopstate2");
-    return e;
-  }, true);
-
-  window.addEventListener('locationchange', function(e) {
-    console.log("locationchange");
-    //filterCategory(window.location.hash.slice(1));
-    return e;
-  }, false);
-  
+window.addEventListener('locationchange', function(e) {
+  console.log("locationchange");
+  filterCategory(window.location.hash.slice(1));
   return e;
 }, false);
