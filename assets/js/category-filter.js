@@ -17,6 +17,8 @@ function filterCategory( catRequest )
       sections[i].style.display = "block";
     else
       sections[i].style.display = "none";
+    
+    sections[i].querySelector("h1.archive__subtitle").classList.add("archive__subtitle-as-page-title-style");
   }
 }
 
