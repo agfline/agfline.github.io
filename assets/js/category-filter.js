@@ -29,6 +29,10 @@ window.onpopstate = function() {
   filterCategory(window.location.hash.slice(1));
 }
 
+window.addEventListener('popstate', function(e){
+    console.log("onpopstate2");
+}, true);
+
 document.addEventListener('hashchange', function() {
   console.log("hashchange");
   filterCategory(window.location.hash.slice(1));
