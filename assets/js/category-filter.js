@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-    alert("JSLoaded");
+    alert(window.location.hash);
 }, false);
