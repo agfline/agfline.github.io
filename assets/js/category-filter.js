@@ -19,14 +19,11 @@ function filterCategory( catRequest )
 document.addEventListener('DOMContentLoaded', function() {
   console.log("DOMContentLoaded");
   filterCategory(window.location.hash.slice(1));
-  $( window ).on( 'hashchange', function( e ) {
-    console.log( 'hash changed' );
-  });
 }, false);
 
 window.onpopstate = function() {
   console.log("onpopstate");
-  filterCategory(window.location.hash.slice(1));
+  //filterCategory(window.location.hash.slice(1));
 }
 
 window.addEventListener('popstate', function(e){
@@ -35,5 +32,5 @@ window.addEventListener('popstate', function(e){
 
 document.addEventListener('hashchange', function() {
   console.log("hashchange");
-  filterCategory(window.location.hash.slice(1));
-}, false);
+  //filterCategory(window.location.hash.slice(1));
+}, true);
