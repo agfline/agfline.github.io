@@ -15,6 +15,7 @@ function filterCategory( catRequest ) {
 
 document.addEventListener('DOMContentLoaded', function() {
   filterCategory(window.location.hash.slice(1));
+  console.log(window);
 }, false);
 
 document.addEventListener('hashchange', function() {
