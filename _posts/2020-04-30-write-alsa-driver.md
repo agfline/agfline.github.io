@@ -6,7 +6,7 @@ tags:
   - "Reverse Engineering"
   - "Rétro-ingénierie"
 header:
-  overlay_image: "/_posts/alsa.png"
+  overlay_image: "/_posts/alsa2.png"
   overlay_filter: 0.5
   show_overlay_excerpt: false
 ---
