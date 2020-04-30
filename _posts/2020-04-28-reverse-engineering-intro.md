@@ -8,6 +8,7 @@ tags:
 header:
   overlay_image: "/_posts/9WDnA-wfi7dkz49F80RaJGi_UE_0lAvTG4SIsBizwr4.png"
   overlay_filter: 0.5
+  show_overlay_excerpt: false
 ---
 
 La rétro ingénierie n'est PAS une forme d'ingénierie old-school.
