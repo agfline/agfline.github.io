@@ -11,4 +11,4 @@ header:
   show_overlay_excerpt: false
 ---
 
-Il y a un rituel lorsqu'on écrit sur le développement de driver audio pour alsa, c'est de commencer par souligner le fait qu'il manque de documentation sur le sujet.
+Il y a un rituel lorsqu'on écrit sur le développement de driver audio alsa, c'est de commencer par souligner le manque de documentation sur le sujet.
