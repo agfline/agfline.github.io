@@ -1,18 +1,15 @@
 ---
 title: Introduction à la rétro ingénierie
-header:
-  overlay_image: "/_posts/9WDnA-wfi7dkz49F80RaJGi_UE_0lAvTG4SIsBizwr4.png"
-  
 categories: Reverse-Engineering
 date: 2020-04-28
 tags:
   - "Reverse Engineering"
   - "Rétro-ingénierie"
+header:
+  overlay_image: "/_posts/9WDnA-wfi7dkz49F80RaJGi_UE_0lAvTG4SIsBizwr4.png"
 ---
 
 La rétro ingénierie n'est PAS une forme d'ingénierie old-school.
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate maximus purus id elementum. Vivamus a pellentesque magna, quis efficitur justo. Donec et suscipit erat, non porttitor nisl. Fusce dapibus eros in auctor volutpat. Curabitur ac lacus nibh. Suspendisse eu sapien nisi. Maecenas iaculis lectus sed diam gravida, eu feugiat leo molestie. Donec quis libero vitae diam porta ultricies ut at augue.
 
