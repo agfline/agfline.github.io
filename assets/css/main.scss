@@ -35,6 +35,10 @@ section,
   font-size: 0.8em !important;
 }
 
+.page__hero-image {
+  max-height: 300px;
+}
+
 @media (min-width: 48em) {
  html {
   font-size:18px
