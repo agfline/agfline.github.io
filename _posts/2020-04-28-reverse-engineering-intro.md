@@ -1,6 +1,8 @@
 ---
 title: Introduction à la rétro ingénierie
-related_image: "/_posts/9WDnA-wfi7dkz49F80RaJGi_UE_0lAvTG4SIsBizwr4.png"
+header:
+  overlay_image: "/_posts/9WDnA-wfi7dkz49F80RaJGi_UE_0lAvTG4SIsBizwr4.png"
+  
 categories: Reverse-Engineering
 date: 2020-04-28
 tags:
