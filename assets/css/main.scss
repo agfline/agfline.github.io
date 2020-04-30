@@ -7,10 +7,12 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/*
 section,
 .wrapper {
   max-width: 850px !important;
 }
+*/
 
 .taxonomy__section {
   margin-top: 0px !important;
